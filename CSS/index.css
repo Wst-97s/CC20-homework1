@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #bfe9c3
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  border: 1px solid black;
+  width: 600px;
+  padding: 16px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid silver;
+  border-radius: 8px;
+}
+
+label {
+  width: 100%;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  background-color: aquamarine;
+  border: none;
+}
+
+input[type=reset] {
+  background-color: aquamarine;
+  border: none;
+  width: 300px;
+
+}
